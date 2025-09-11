@@ -1,6 +1,4 @@
 import streamlit as st
-st.title("Hello Bro 👋 App Work Aagudhu!")
-import streamlit as st
 import pandas as pd
 import PyPDF2
 import spacy
@@ -81,4 +79,5 @@ if uploaded_files and job_desc:
     # Download option
     csv = df.to_csv(index=False).encode("utf-8")
     st.download_button("⬇ Download Results as CSV", data=csv, file_name="resume_ranking.csv", mime="text/csv")
+
    
