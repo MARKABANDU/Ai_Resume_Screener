@@ -1,6 +1,9 @@
 streamlit
 pandas
-scikit-learn
-PyPDF2
+pdfplumber
 spacy
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz
+scikit-learn
+plotly
+wordcloud
+matplotlib
+sqlite3-binary
