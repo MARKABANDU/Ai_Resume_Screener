@@ -6,3 +6,4 @@ scikit-learn
 plotly
 wordcloud
 matplotlib
+sqlite3-binary
